@@ -1,11 +1,15 @@
-/*common elements */
+/*common style start */
 BODY {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*common style end */
+
+/* nav style start */
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 150px;
 }
 
 .nav-title {
@@ -16,6 +20,7 @@ nav {
 
 }
 
+/* marry text */
 .orgtext {
     color: #FD6E0A;
 }
@@ -29,7 +34,7 @@ nav li {
     list-style: none;
     margin-right: 50px;
     align-items: center;
-    
+
 }
 
 nav a {
@@ -37,6 +42,7 @@ nav a {
     color: #474747;
 }
 
+/* btn styles */
 .btn_primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -44,3 +50,20 @@ nav a {
     padding: 15px 35px;
 }
 
+/* header part */
+.header {
+    background: #FFF8F3;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+
+.header .profile_pic {
+    width: 584px;
+    height: 676px;
+}
